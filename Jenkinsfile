@@ -12,7 +12,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/mihaylov79/02StudentRegistryApp.git'
+                checkout scm // използва Git конфигурацията от Jenkins job-а
             }
         }
 
