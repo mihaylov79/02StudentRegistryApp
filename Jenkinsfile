@@ -20,7 +20,7 @@ pipeline {
             steps {
                 sh 'npm install'
 
-                sh 'npm audit fix'
+                sh 'npm audit fix --force'
             }
         }
 
