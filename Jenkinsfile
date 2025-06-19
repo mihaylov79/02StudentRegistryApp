@@ -6,7 +6,7 @@ pipeline {
     }
 
     tools {
-        nodejs 'NodeJS' // Това име трябва да съвпада с NodeJS tool, конфигуриран в Jenkins (Manage Jenkins > Global Tool Configuration)
+        nodejs 'NodeJs' // Това име трябва да съвпада с NodeJS tool, конфигуриран в Jenkins (Manage Jenkins > Global Tool Configuration)
     }
 
     stages {
